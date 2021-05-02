@@ -1,7 +1,7 @@
 Type: Package
 Package: preferably
 Title: A 'pkgdown' Template
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: 
     person(given = "Amir Masoud",
            family = "Abdol",
@@ -23,7 +23,7 @@ Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2021-04-19 07:49:37 UTC; amabdol
+Packaged: 2021-05-02 20:58:45 UTC; amabdol
 Author: Amir Masoud Abdol [aut, cre]
 Repository: CRAN
-Date/Publication: 2021-04-22 07:20:02 UTC
+Date/Publication: 2021-05-02 21:10:03 UTC
