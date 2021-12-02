@@ -1,7 +1,7 @@
 Type: Package
 Package: preferably
 Title: A 'pkgdown' Template
-Version: 0.3.1
+Version: 0.4
 Authors@R: 
     person(given = "Amir Masoud",
            family = "Abdol",
@@ -21,9 +21,9 @@ Imports: pkgdown, knitr, rmarkdown
 VignetteBuilder: knitr
 Encoding: UTF-8
 Language: en-US
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 NeedsCompilation: no
-Packaged: 2021-05-02 20:58:45 UTC; amabdol
+Packaged: 2021-12-02 15:13:27 UTC; amabdol
 Author: Amir Masoud Abdol [aut, cre]
 Repository: CRAN
-Date/Publication: 2021-05-02 21:10:03 UTC
+Date/Publication: 2021-12-02 15:30:02 UTC

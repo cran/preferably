@@ -27,6 +27,18 @@ template:
   package: preferably
 ```
 
+##### {pkgdown} 2.0 and Bootstrap 5
+
+{preferably} 0.4 is compatible with {pkgdown} 2.0 and Bootstrap 5. In order to build your website using the Bootstrap 5, your setting should look like this:
+
+```YAML
+template:
+  package: preferably
+  bootstrap: 5
+```
+
+> ⚠️ {preferably} 0.4 is not yet on CRAN, so, unless you are pulling the repo from the github, you should not upgrade yet!
+
 > ⚠️ Keep in mind that you should NOT use `default_assets: false` when you change the default template. 'preferably' relies on some of the 'pkgdown' assets and templates.
 
 ### Integration
@@ -71,7 +83,7 @@ Setting these command will generate the following line in the HTML:
 <script async defer data-domain="example.com" src="https://example.com/tracker.js"></script>
 ```
 
-In case this setting does not satisfy your need or you have a better idea on how to implement this, please reach out on [GitHub](https://github.com/amirmasoudabdol/preferably/issues/).
+> `{pkgdown}` 2.0 comes with a [greater list of supported trackers](https://pkgdown.r-lib.org/reference/build_site.html?q=plausi#analytics) that you can use out of the box, including [Plausible](https://plausible.io/).
 
 ### Manual Light/Dark Toggle
 
@@ -110,6 +122,4 @@ If you found any bugs, or have any suggestions, please feel free to reach out to
 
 #### Support
 
-You can support my projects by either sponsoring me on [GitHub](https://github.com/sponsors/amirmasoudabdol) or buying me a few cups of coffee! 
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C47DMK)
+If you enjoy using {preferably}, please consider supporting it on [GitHub](https://github.com/sponsors/amirmasoudabdol). You can sponsor me monthly, or make a one-time donation! 🤗
